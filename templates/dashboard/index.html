@@ -1,0 +1,31 @@
+{% extends '../base.html' %}
+
+{% block content %}
+
+<h1>Dashboard</h1>
+	<table class="table table-striped table-hover">
+		<thead>
+			<tr>
+			  <th>#</th>
+			  <th>Some</th>
+			  <th>Content here</th>
+			  <th>Here</th>
+			  <th>Profit</th>
+			  <th style="width: 150px;">Delete</th>
+			</tr>
+		  </thead>
+		  <tbody>
+
+			<tr>
+				<td>#</td>
+				<td><a href=""><b> Text </b></a></td>
+				<td>123</td>
+				<td>456</td>
+				<td>78</td>
+				<td><a href="" class="btn btn-sm btn-danger" name="mode" value="del_" title="Delete ...">X</a></td>
+			</tr>
+
+		  </tbody>
+	</table>
+
+{% endblock content %}

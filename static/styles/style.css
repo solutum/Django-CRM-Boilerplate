@@ -1,0 +1,93 @@
+.container {
+	max-width: 1800px;
+}
+.inactive-row {
+    color: #999;
+    background-color: #f5f5f5;
+}
+
+.xs-btn {
+	--bs-btn-padding-y: .25rem;
+	--bs-btn-padding-x: .5rem;
+	--bs-btn-font-size: .75rem;
+	/* width: 26px; */
+}
+
+.cbtn {
+	padding: 0;
+}
+
+h1 {
+	margin-bottom: 40px;
+}
+
+
+.chat-container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.msg {
+	color: rgb(36, 37, 41);
+	padding: 8px;
+	border-radius: 5px;
+	margin: 10px 0;
+	clear: both;
+	max-width: 450px;
+}
+
+.my-text {
+	background-color: #DEF3FD;
+	float: left;
+}
+
+.user-text {
+	background-color: #EDF0F3;	
+	float: right;
+}
+
+.show-full-text {
+	--bs-table-bg: #ffffff;
+}
+.chat {
+	cursor: pointer;
+}
+.fchat {
+	display: none;
+}
+
+.dmode {margin-right: 20px;}
+
+[data-bs-theme="dark"] {
+	--bs-body-bg: #252a2f;
+	--bs-link-color-rgb: 13, 110, 253;
+	--bs-link-color: #2f80f9;
+}
+
+#btn-back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+}
+
+.btn-floating {
+	--mdb-btn-width: 2.3125rem;
+	--mdb-btn-height: 2.3125rem;
+	--mdb-btn-icon-width: 2.3125rem;
+	--mdb-btn-icon-line-height: 2.3125rem;
+	--mdb-btn-width-lg: 2.8125rem;
+	--mdb-btn-height-lg: 2.8125rem;
+	--mdb-btn-icon-width-lg: 2.8125rem;
+	--mdb-btn-icon-line-height-lg: 2.8125rem;
+	--mdb-btn-width-sm: 1.8125rem;
+	--mdb-btn-height-sm: 1.8125rem;
+	--mdb-btn-icon-width-sm: 1.8125rem;
+	--mdb-btn-icon-line-height-sm: 1.8125rem;
+	width: var(--mdb-btn-width-lg);
+	height: var(--mdb-btn-height-lg);
+	--mdb-btn-border-radius: 50%;
+	border-radius: var(--mdb-btn-border-radius);
+	padding: 0;
+  }
+
